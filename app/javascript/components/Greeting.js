@@ -1,9 +1,8 @@
 import React from 'react';
 
-
 const Greeting = () => {
   return (
-    <div>This is the greeting component</div>
+    <h1>This is the greeting component</h1>
   )
 }
 export default Greeting

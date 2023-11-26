@@ -1,12 +1,14 @@
 import React from 'react';
+import { Routes, Route } from 'react-router-dom';
 import Greeting from './Greeting';
 
 const App = () => {
   return (
-    <>
-      <h1>Random greeting inside this app component</h1>
-      <Greeting />
-    </>
+    <main>
+      <Routes>
+        <Route path="/" element={<Greeting />} />
+      </Routes>
+    </main>
   )
 }
 export default App
