@@ -3,9 +3,7 @@ import { useSelector } from 'react-redux';
 
 const Greeting = () => {
   const { greeting, isLoading, isError, errorMsg } = useSelector((store) => store.greeting);
-
-  console.log(greeting.message);
-
+  
   if (isLoading) {
     return (<h1>Loading Greeting</h1>);
   }
