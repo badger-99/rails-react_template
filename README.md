@@ -29,7 +29,7 @@
 
 # 📖 Hello Rails-React <a name="about-project"></a>
 
-**Hello Rails-React** Is a fullstack app that combines Ruby on Rails for the back end and React for the front end. The Ruby on Rails app provides JSON-formated data through an API endpoint that is then consumed by the React app and rendered on the browser. This project can be used as a template for simple Rails-React applications.
+**Hello Rails-React** Is a fullstack Rails-React app template. It combines Ruby on Rails for the back end and React with Redux and React Routes for the front end. The Ruby on Rails app provides JSON-formated data through an API endpoint that is then consumed by the React app and rendered on the browser.
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -78,10 +78,11 @@ Use the following URL to clone this project:
 
 
 ### Install
-Open the terminal in the root directory of the project and run the folloeing command to install all dependencies.
+Open the terminal in the root directory of the project and run the following commands in the listed order to install all dependencies for it to work.
 
     bundle install
     npm i
+    rails db:seed
 
 
 ### Usage
